@@ -23,6 +23,7 @@
   color: #2b2024;
   text-decoration: none;
   font-family: Futura;
+  margin-left: 147px;
  &:hover {
   text-decoration: none;
   color: #2b2024;
@@ -37,10 +38,17 @@
 }
 
 /* Right section */
-.navbar-wagon-right {
+.navbar-wagon-right  {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right:147px;
+& p {
+  font-family: Raleway;
+  font-style: light;
+  font-size: 20px;
+  margin: 40px;
+}
 }
 
 /* Basic navbar item */
