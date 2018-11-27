@@ -1,1 +1,40 @@
 // Specific CSS for your home-page
+.main-container {
+  margin: 160px;
+}
+
+.text-opening {
+  text-align: center;
+  align-items: center;
+}
+
+.image-opening {
+  text-align: center;
+  align-items: center;
+}
+
+.phone-front {
+ height: 50vh;
+}
+
+.btn-customed {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #A80038;
+  transition: background 0.3s ease;
+  height: 44px;
+}
+.btn-customed:hover {
+  opacity: 1;
+  background: #D73E2A;
+  text-decoration: none;
+  color: white;
+}
+.btn-customed:p {
+  font-family: Lato;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}
