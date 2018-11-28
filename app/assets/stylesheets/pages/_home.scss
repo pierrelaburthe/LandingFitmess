@@ -39,8 +39,23 @@
   justify-content: center;
 }
 
-.video {
-  width: 557px;
-  height: 308px;
-  margin-top: 10vh;
+.newpage {
+  margin-top: 17vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Raleway;
+  font-style: medium;
+  font-size: 20px;
 }
+
+.video {
+  display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+.thirdscreen {
+  margin-top: 15vh;
+}
+
