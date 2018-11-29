@@ -2,14 +2,13 @@
   <!-- Logo -->
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
     <p>Fitmess</p>
-
   <% end %>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-   <p> <a href="#subscribe">Subscribe</a></p>
-    <p><a href="#preview">Preview</a></p>
-    <p><a href="#invest">Invest</a></p>
+   <p> <a class="js-scrollTo" href="#subscribe" >Subscribe</a></p>
+    <p><a class="js-scrollTo" href="#preview" >Preview</a></p>
+    <p><a class="js-scrollTo" href="#invest" >Invest</a></p>
   </div>
 
   <!-- Dropdown list appearing on mobile only -->
@@ -17,9 +16,9 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Some mobile link</a></li>
-        <li><a href="#">Other one</a></li>
-        <li><a href="#">Other one</a></li>
+        <li><a href="#subscribe">Subscribe</a></li>
+        <li><a href="#preview">Preview</a></li>
+        <li><a href="#invest">Invest</a></li>
       </ul>
     </div>
   </div>
