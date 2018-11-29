@@ -3,6 +3,14 @@
   margin: 160px;
 }
 
+.logo {
+  justify-content: center;
+  height: calc(100vh-80px);
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+}
+
 .text-opening {
   text-align: center;
   align-items: center;

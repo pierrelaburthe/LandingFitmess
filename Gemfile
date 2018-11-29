@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.4.4'
 
+gem 'money-rails'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'jquery-rails'
 gem 'devise'
 gem 'jbuilder', '~> 2.0'

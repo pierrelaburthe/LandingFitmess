@@ -2,7 +2,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap.min
-//= require home
 //= require_tree .
 
 
@@ -18,10 +17,6 @@ function initUpdateNavbarOnScroll() {
     });
   }
 }
-
-$(document).ready(function () {
-  console.log("Jquery ok");
-});
 
 initUpdateNavbarOnScroll();
 
